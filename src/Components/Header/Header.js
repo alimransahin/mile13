@@ -51,7 +51,8 @@ export default function Header(props) {
       <CssBaseline />
       <AppBar component="nav" sx={{
         backgroundColor:'transparent',
-        boxShadow:'none'
+        boxShadow:'none',
+        mt:1,
       }}>
         <Container>
         <Toolbar>

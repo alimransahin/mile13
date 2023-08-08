@@ -61,7 +61,13 @@ export default function Header(props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
+            sx={{ mr: 2, 
+              backgroundColor: 'primary.main',
+              '&:hover':{
+                backgroundColor:'primary.dark'
+              },
+              display: { sm: 'none' } 
+            }}
           >
             <MenuIcon />
           </IconButton>
@@ -73,7 +79,7 @@ export default function Header(props) {
             MUI
           </Typography> */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
-            <img src="https://logomaster.ai/hs-fs/hubfs/hero-ind-professionals.jpg?width=800&height=592&name=hero-ind-professionals.jpg" alt='' style={{
+            <img src="https://i.ibb.co/JsvBDwD/logo.png" alt='' style={{
                 width:'100px'
             }} />
           </Box>
